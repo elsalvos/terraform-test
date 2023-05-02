@@ -12,7 +12,7 @@ provider "azurerm" {
 
 variable "location" {
   type    = string
-  default = "uksouth"
+  default = "westus3"
 }
 
 variable "postfix" {
