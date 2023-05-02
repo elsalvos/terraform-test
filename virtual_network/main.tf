@@ -1,12 +1,12 @@
 terraform {
   backend "azurerm" {
   }
+}
 
-/*
 provider "azurerm" {
   features {}
 }
-
+/*
 resource "azurerm_virtual_network" "this" {
   name                = var.resource_name
   location            = var.location
